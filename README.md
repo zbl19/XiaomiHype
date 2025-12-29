@@ -1,6 +1,8 @@
 # 小米手环心率监测应用
 
 一个基于Python和PyQt5开发的小米手环心率监测应用，支持实时心率数据显示和悬浮窗功能。
+全程使用ai开发，开发使用的设备是小米手环9pro。不确定其他设备可不可以，据ai说只要是支持HRS协议的设备都可以。
+目前悬浮窗样式只有简约数字，因为这个最简单最好做
 
 ## 功能特点
 
@@ -9,7 +11,7 @@
 - 📊 心率数据可视化显示
 - 🪟 可定制的悬浮窗UI
 - ⚙️ 自动重连和设备管理
-- 📱 支持多种小米手环型号
+- 📱 支持多种循蓝牙标准 HRS 协议（0x180D）的设备
 
 ## 系统要求
 
@@ -21,7 +23,7 @@
 
 ### 1. 克隆仓库
 ```bash
-git clone https://github.com/yourusername/XiaomiHype.git
+git clone https://github.com/zbl19/XiaomiHype.git
 cd XiaomiHype
 ```
 
